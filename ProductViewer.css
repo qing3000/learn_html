@@ -1,0 +1,38 @@
+/*div {
+    border: 1px solid red;
+}*/
+.clearfix {
+    overflow: auto;
+}
+
+#navigator, #footer{
+    width: 99%;
+    color: #4800ff;
+    text-align: center;
+    padding: 1px;
+}
+#navigator {
+    border-bottom: 1px solid lightgray;
+    font-family: SimSun-ExtB;
+    font-size: 10px;
+}
+#footer {
+    border-top:  1px solid lightgray;
+}
+
+#content {
+    width: 800px;
+    margin:  auto;
+}
+
+#content #galary {
+    width:  400px;
+    float: left;
+}
+#content #galary #picture img {
+    border: 1px solid gray;
+    width: 100%;
+}
+#content #details {
+    margin-left:  400px;
+}

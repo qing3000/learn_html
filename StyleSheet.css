@@ -1,0 +1,40 @@
+/*div {
+    border: 1px solid red;
+}*/
+body {
+    background-color:  #FFFFFF;
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+#header, #footer{
+    width: 99%;
+    color: #4800ff;
+    text-align: center;
+    padding: 10px;
+}
+#header {
+    border-bottom: 1px solid lightgray;
+}
+#footer {
+    border-top:  1px solid lightgray;
+}
+
+#content {
+    width: 800px;
+    margin:  auto;
+}
+
+#content #description {
+    width:  400px;
+    float: left;
+}
+#content #description #picture img {
+    border: 1px solid gray;
+    width: 100%;
+}
+#content #breakdown {
+    margin-left:  400px;
+}
