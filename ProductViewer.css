@@ -12,10 +12,45 @@
     padding: 1px;
 }
 #navigator {
-    border-bottom: 1px solid lightgray;
+    /*border-bottom: 1px solid lightgray;*/
     font-family: SimSun-ExtB;
-    font-size: 10px;
+    font-size: 15px;
 }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
 #footer {
     border-top:  1px solid lightgray;
 }
