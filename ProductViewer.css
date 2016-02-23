@@ -4,7 +4,6 @@
 .clearfix {
     overflow: auto;
 }
-
 #navigator, #footer{
     width: 99%;
     color: #4800ff;
@@ -16,7 +15,7 @@
     font-family: SimSun-ExtB;
     font-size: 15px;
 }
-
+/*Menus in navigator bar*/
 ul {
     list-style-type: none;
     margin: 0;
@@ -54,20 +53,53 @@ li a:hover:not(.active) {
 #footer {
     border-top:  1px solid lightgray;
 }
+/*Menu in navigator bar*/
+
 
 #content {
-    width: 800px;
+    width: 900px;
     margin:  auto;
 }
 
 #content #galary {
-    width:  400px;
+    width:  600px;
     float: left;
 }
-#content #galary #picture img {
-    border: 1px solid gray;
-    width: 100%;
+
+/*image gallary*/
+div.img {
+    margin: 4px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 290px;
 }
+
+div.img:hover {
+    border: 1px solid #777;
+}
+
+/*Make the image fill up the space horizontally and scale proportionally in vertical direction*/
+div.img img {
+    width: 100%;
+    height: auto;
+}
+/*image gallary*/
+
+/*details*/
 #content #details {
-    margin-left:  400px;
+    margin-left:  600px;
+}
+
+.detail_title {
+    font-size: 12px;
+    border-bottom:   thin solid #888;
+    margin-top:  10px;
+    margin-bottom:  10px;
+    margin-right: 50%;
+    color: #777;
+}
+
+.detail_description {
+    font-size: 14px;
+    margin-bottom:  20px;
 }
